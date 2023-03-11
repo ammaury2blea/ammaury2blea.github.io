@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Índice con Bootstrap</title>
+  <!-- Importar Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Contenido</h1>
+        <p>Este es el contenido principal de mi página.</p>
+        <h2>Sección 1</h2>
+        <p>Este es el contenido de la sección 1.</p>
+        <h3>Subsección 1.1</h3>
+        <p>Este es el contenido de la subsección 1.1.</p>
+        <h3>Subsección 1.2</h3>
+        <p>Este es el contenido de la subsección 1.2.</p>
+        <h2>Sección 2</h2>
+        <p>Este es el contenido de la sección 2.</p>
+        <h3>Subsección 2.1</h3>
+        <p>Este es el contenido de la subsección 2.1.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Índice</h3>
+        <nav class="nav flex-column">
+          <a class="nav-link" href="#section1">Sección 1</a>
+          <nav class="nav flex-column ml-3">
+            <a class="nav-link" href="#sub1">Subsección 1.1</a>
+            <a class="nav-link" href="#sub2">Subsección 1.2</a>
+          </nav>
+          <a class="nav-link" href="#section2">Sección 2</a>
+          <nav class="nav flex-column ml-3">
+            <a class="nav-link" href="#sub3">Subsección 2.1</a>
+          </nav>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- Importar Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
